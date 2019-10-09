@@ -1,1 +1,11 @@
 type = "rust"
+account_id = "12234"
+route = "top-level"
+
+[env.foo]
+workers_dev = true
+
+[env.bar]
+account_id = "12345"
+zone_id = "12345"
+route = "bar-env"
