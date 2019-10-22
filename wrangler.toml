@@ -8,7 +8,7 @@ kv_namespaces = [
 
 [env.foo]
 workers_dev = true
-kv_namespaces = [
+kv-namespaces = [
     { binding = "FOOFOO", id = "123456" },
     { binding = "FOOBAR", id = "654321" }
 ]
@@ -17,7 +17,7 @@ kv_namespaces = [
 account_id = "12345"
 zone_id = "12345"
 route = "bar-env"
-kv_namespaces = [
+kv-namespaces = [
     { binding = "BARFOO", id = "123456" },
     { binding = "BARBAR", id = "654321" }
 ]
