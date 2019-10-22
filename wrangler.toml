@@ -1,7 +1,7 @@
 type = "rust"
 account_id = "12234"
 route = "top-level"
-kv_namespaces = [
+kv-namespaces = [
     { binding = "FOO", id = "123456" },
     { binding = "BAR", id = "654321" }
 ]
